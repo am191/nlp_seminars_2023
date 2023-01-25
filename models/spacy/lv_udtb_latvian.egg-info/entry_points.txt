@@ -1,0 +1,3 @@
+[spacy_models]
+lv_udtb_latvian = lv_udtb_latvian
+
