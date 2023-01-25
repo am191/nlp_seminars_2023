@@ -8,5 +8,5 @@
 
 Par failiem:
 - flair_train.py - Flair apmācības skripts
-- [spaCy](https://spacy.io/usage/training0 un [MarMot](https://github.com/muelletm/cistern/blob/wiki/marmot.md) tika apmācīti caur komandrindu
+- [spaCy](https://spacy.io/usage/training0) un [MarMot](https://github.com/muelletm/cistern/blob/wiki/marmot.md) tika apmācīti caur komandrindu
 - scikit_scores.py - izmantots novērtēšanas stadijā
