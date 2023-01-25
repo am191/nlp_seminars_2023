@@ -1,5 +1,4 @@
 from sklearn.metrics import accuracy_score
-from sklearn.metrics import f1_score
 from sklearn.metrics import classification_report
 import pandas 
 import matplotlib.pyplot as plt
@@ -12,6 +11,10 @@ import seaborn
 def acc_score(x,y, tag):  
     accuracy = accuracy_score(x,y)
     print(f'trenētā modeļa {tag} taga precizitāte: {accuracy}')
+
+#analysis (precision, recall, f1) by tag 
+def classification(x,y):
+    print(classification_report(x,y,digits=3))
         
 #draws heatmap of selected categories
 def draw_heatmap(x_labels, y_labels):
